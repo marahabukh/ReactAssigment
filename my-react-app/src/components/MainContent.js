@@ -30,7 +30,7 @@ function MainContent() {
         <div className="container text-center text-white position-relative" style={{ zIndex: 2 }}>
           <div className="row justify-content-center">
             <div className="col-lg-10">
-              <h1 className="display-3 fw-bold mb-3 mt-5">Let's explore & travel the world</h1>
+              <h1 className="display-3 fw-bold mb-3 mt-5" >Let's explore & travel the world</h1>
               <p className="lead mb-5">Find the best destinations and the most popular stays!</p>
 
               <div className="bg-white p-4 rounded-3 shadow-lg text-dark">

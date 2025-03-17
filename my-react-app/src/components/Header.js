@@ -13,12 +13,12 @@ function Header() {
           <nav>
             <ul className="nav">
               <li className="nav-item">
-                <a href="#" className="nav-link text-dark">
+                <a href="/SR" className="nav-link text-dark">
                   Explore
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link text-dark">
+                <a href="/" className="nav-link text-dark">
                   Search
                 </a>
               </li>

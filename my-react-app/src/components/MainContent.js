@@ -1,8 +1,8 @@
-import React from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
+import React from "react" 
 import { Calendar, ArrowRight, Bed, Ticket, Utensils, Bus, Car, Film } from "lucide-react"
 
-function MainContent() {
+ function MainContent() {
   return (
     <>
       <section
@@ -30,7 +30,7 @@ function MainContent() {
         <div className="container text-center text-white position-relative" style={{ zIndex: 2 }}>
           <div className="row justify-content-center">
             <div className="col-lg-10">
-              <h1 className="display-3 fw-bold mb-3 mt-5" >Let's explore & travel the world</h1>
+              <h1 className="display-3 fw-bold mb-3 mt-5">Let's explore & travel the world</h1>
               <p className="lead mb-5">Find the best destinations and the most popular stays!</p>
 
               <div className="bg-white p-4 rounded-3 shadow-lg text-dark">
@@ -134,6 +134,66 @@ function MainContent() {
         <div className="container">
           <h4 className="mb-4 text-muted">PREPARE FOR YOUR TRIP</h4>
           <div className="row g-4 text-center">
+            <div className="col-md-4 col-lg-2">
+              <div className="card h-100 border-0 shadow-sm">
+                <div className="card-body d-flex flex-column align-items-center">
+                  <div className="rounded-circle bg-primary bg-opacity-10 p-3 mb-3">
+                    <Bed size={24} className="text-primary" />
+                  </div>
+                  <h6>Hotels</h6>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-lg-2">
+              <div className="card h-100 border-0 shadow-sm">
+                <div className="card-body d-flex flex-column align-items-center">
+                  <div className="rounded-circle bg-warning bg-opacity-10 p-3 mb-3">
+                    <Ticket size={24} className="text-warning" />
+                  </div>
+                  <h6>Tickets</h6>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-lg-2">
+              <div className="card h-100 border-0 shadow-sm">
+                <div className="card-body d-flex flex-column align-items-center">
+                  <div className="rounded-circle bg-success bg-opacity-10 p-3 mb-3">
+                    <Utensils size={24} className="text-success" />
+                  </div>
+                  <h6>Restaurants</h6>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-lg-2">
+              <div className="card h-100 border-0 shadow-sm">
+                <div className="card-body d-flex flex-column align-items-center">
+                  <div className="rounded-circle bg-danger bg-opacity-10 p-3 mb-3">
+                    <Bus size={24} className="text-danger" />
+                  </div>
+                  <h6>Tours</h6>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-lg-2">
+              <div className="card h-100 border-0 shadow-sm">
+                <div className="card-body d-flex flex-column align-items-center">
+                  <div className="rounded-circle bg-info bg-opacity-10 p-3 mb-3">
+                    <Car size={24} className="text-info" />
+                  </div>
+                  <h6>Car Rental</h6>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-lg-2">
+              <div className="card h-100 border-0 shadow-sm">
+                <div className="card-body d-flex flex-column align-items-center">
+                  <div className="rounded-circle bg-secondary bg-opacity-10 p-3 mb-3">
+                    <Film size={24} className="text-secondary" />
+                  </div>
+                  <h6>Activities</h6>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -151,11 +211,11 @@ function MainContent() {
           </div>
 
           <div className="row g-4">
-          <div className="col-md-6 col-lg-3">
+            <div className="col-md-6 col-lg-3">
               <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
                 <div className="position-relative">
                   <img
-                    src="https://th.bing.com/th/id/R.4e312752589af6f4da3d6cf28e2f9775?rik=6XvqwkBl8ue5ew&riu=http%3a%2f%2fphotos.wikimapia.org%2fp%2f00%2f03%2f67%2f44%2f20_full.jpg&ehk=tZ93i9NWQQUrD9mGvJIMN0tkrsdq1m1xzNI%2bJhdcGys%3d&risl=&pid=ImgRaw&r=0"
+                    src="ParisImage.png"
                     className="card-img-top"
                     alt="Paris"
                     style={{ height: "200px", objectFit: "cover" }}
@@ -174,7 +234,7 @@ function MainContent() {
               <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
                 <div className="position-relative">
                   <img
-                    src="https://th.bing.com/th/id/OIP.PFbBGK8cQu-gJ2JgXw92JgHaEK?rs=1&pid=ImgDetMain"
+                    src="GreeceImage.png"
                     className="card-img-top"
                     alt="Greece"
                     style={{ height: "200px", objectFit: "cover" }}
@@ -193,7 +253,7 @@ function MainContent() {
               <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
                 <div className="position-relative">
                   <img
-                    src="https://a.cdn-hotels.com/gdcs/production181/d401/8351bef0-ef7f-4979-b020-21621c88cdc0.jpg"
+                    src="NorwayImage.png"
                     className="card-img-top"
                     alt="Norway"
                     style={{ height: "200px", objectFit: "cover" }}
@@ -208,7 +268,223 @@ function MainContent() {
                 </div>
               </div>
             </div>
+            <div className="col-md-6 col-lg-3">
+              <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
+                <div className="position-relative">
+                  <img
+                    src="TuscanyImage.png"
+                    className="card-img-top"
+                    alt="Tokyo"
+                    style={{ height: "200px", objectFit: "cover" }}
+                  />
+                  <div className="position-absolute bottom-0 start-0 p-3 text-white">
+                    <h4 className="mb-0">Tokyo</h4>
+                  </div>
+                  <div className="position-absolute top-0 end-0 bg-white m-3 px-2 py-1 rounded-2">
+                    <div className="small text-muted">FROM</div>
+                    <div className="fs-4 fw-bold text-end">$1250</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section className="py-5 bg-light">
+        <div className="container">
+          <div className="d-flex justify-content-between align-items-center mb-4">
+            <div>
+              <h6 className="text-primary mb-2">BEST PLACES TO STAY</h6>
+              <h2 className="mb-0">Most Popular Stays</h2>
+            </div>
+            <a href="#" className="text-primary text-decoration-none d-flex align-items-center">
+              View all stays <ArrowRight size={18} className="ms-2" />
+            </a>
+          </div>
+
+          <div className="row g-4">
+            <div className="col-md-6 col-lg-3">
+              <div className="card border-0 shadow-sm h-100">
+                <img
+                  src="Matterhorn Suites Image.png"
+                  className="card-img-top"
+                  alt="Luxury Hotel"
+                  style={{ height: "200px", objectFit: "cover" }}
+                />
+                <div className="card-body">
+                  <div className="d-flex justify-content-between align-items-center mb-2">
+                    <p className="card-text text-muted mb-0">Entire bungalow</p>
+                    <span className="badge bg-primary">4.9 ★</span>
+                  </div>
+                  <h5 className="card-title">Matterhorn Suites</h5>
+                  <p className="card-text text-primary fw-bold">$575/night</p>
+                </div>
+                <div className="card-footer bg-white border-0">
+                  <button className="btn btn-outline-primary w-100">View Details</button>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-3">
+              <div className="card border-0 shadow-sm h-100">
+                <img
+                  src="Discovery Shores Image.png"
+                  className="card-img-top"
+                  alt="Beach Resort"
+                  style={{ height: "200px", objectFit: "cover" }}
+                />
+                <div className="card-body">
+                  <div className="d-flex justify-content-between align-items-center mb-2">
+                    <p className="card-text text-muted mb-0">2-Story beachfront suite</p>
+                    <span className="badge bg-primary">4.8 ★</span>
+                  </div>
+                  <h5 className="card-title">Discovery Shores</h5>
+                  <p className="card-text text-primary fw-bold">$360/night</p>
+                </div>
+                <div className="card-footer bg-white border-0">
+                  <button className="btn btn-outline-primary w-100">View Details</button>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-3">
+              <div className="card border-0 shadow-sm h-100">
+                <img
+                  src="Arctic Hut Image.png"
+                  className="card-img-top"
+                  alt="Arctic Hut"
+                  style={{ height: "200px", objectFit: "cover" }}
+                />
+                <div className="card-body">
+                  <div className="d-flex justify-content-between align-items-center mb-2">
+                    <p className="card-text text-muted mb-0">Single deluxe hut</p>
+                    <span className="badge bg-primary">4.7 ★</span>
+                  </div>
+                  <h5 className="card-title">Arctic Hut</h5>
+                  <p className="card-text text-primary fw-bold">$420/night</p>
+                </div>
+                <div className="card-footer bg-white border-0">
+                  <button className="btn btn-outline-primary w-100">View Details</button>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-3">
+              <div className="card border-0 shadow-sm h-100">
+                <img
+                  src="Lake Louise Image.png"
+                  className="card-img-top"
+                  alt="Lake Louise Inn"
+                  style={{ height: "200px", objectFit: "cover" }}
+                />
+                <div className="card-body">
+                  <div className="d-flex justify-content-between align-items-center mb-2">
+                    <p className="card-text text-muted mb-0">Deluxe King Room</p>
+                    <span className="badge bg-primary">4.6 ★</span>
+                  </div>
+                  <h5 className="card-title">Lake Louise Inn</h5>
+                  <p className="card-text text-primary fw-bold">$244/night</p>
+                </div>
+                <div className="card-footer bg-white border-0">
+                  <button className="btn btn-outline-primary w-100">View Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-5">
+        <div className="container">
+          <div className="d-flex justify-content-between align-items-center mb-4">
+            <div>
+              <h6 className="text-primary mb-2">EXPLORE THE WORLD</h6>
+              <h2 className="mb-0">Recommended Holidays</h2>
+            </div>
+            <a href="#" className="text-primary text-decoration-none d-flex align-items-center">
+              View all holidays <ArrowRight size={18} className="ms-2" />
+            </a>
+          </div>
+
+          <div className="row g-4">
+            <div className="col-md-6 col-lg-3">
+              <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
+                <div className="position-relative">
+                  <img
+                    src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80"
+                    className="card-img-top"
+                    alt="Bali"
+                    style={{ height: "200px", objectFit: "cover" }}
+                  />
+                  <div className="position-absolute bottom-0 start-0 p-3 text-white">
+                    <h4 className="mb-0">Bali</h4>
+                    <p className="mb-0">4D3N</p>
+                  </div>
+                  <div className="position-absolute top-0 end-0 bg-white m-3 px-2 py-1 rounded-2">
+                    <div className="small text-muted">FROM</div>
+                    <div className="fs-4 fw-bold text-end">$899</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-3">
+              <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
+                <div className="position-relative">
+                  <img
+                    src="SwitzerlandImage.png"
+                    className="card-img-top"
+                    alt="Swiss"
+                    style={{ height: "200px", objectFit: "cover" }}
+                  />
+                  <div className="position-absolute bottom-0 start-0 p-3 text-white">
+                    <h4 className="mb-0">Swiss</h4>
+                    <p className="mb-0">6D5N</p>
+                  </div>
+                  <div className="position-absolute top-0 end-0 bg-white m-3 px-2 py-1 rounded-2">
+                    <div className="small text-muted">FROM</div>
+                    <div className="fs-4 fw-bold text-end">$900</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-3">
+              <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
+                <div className="position-relative">
+                  <img
+                    src="BoracayImage.png"
+                    className="card-img-top"
+                    alt="Boracay"
+                    style={{ height: "200px", objectFit: "cover" }}
+                  />
+                  <div className="position-absolute bottom-0 start-0 p-3 text-white">
+                    <h4 className="mb-0">Boracay</h4>
+                    <p className="mb-0">5D4N</p>
+                  </div>
+                  <div className="position-absolute top-0 end-0 bg-white m-3 px-2 py-1 rounded-2">
+                    <div className="small text-muted">FROM</div>
+                    <div className="fs-4 fw-bold text-end">$699</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-3">
+              <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
+                <div className="position-relative">
+                  <img
+                    src="PalawanImage.png"
+                    className="card-img-top"
+                    alt="Palawan"
+                    style={{ height: "200px", objectFit: "cover" }}
+                  />
+                  <div className="position-absolute bottom-0 start-0 p-3 text-white">
+                    <h4 className="mb-0">Palawan</h4>
+                    <p className="mb-0">4D3N</p>
+                  </div>
+                  <div className="position-absolute top-0 end-0 bg-white m-3 px-2 py-1 rounded-2">
+                    <div className="small text-muted">FROM</div>
+                    <div className="fs-4 fw-bold text-end">$789</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -217,3 +493,4 @@ function MainContent() {
 }
 
 export default MainContent
+

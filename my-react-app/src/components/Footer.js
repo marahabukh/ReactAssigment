@@ -4,11 +4,11 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="position-relative">
-      <div className="bg-light py-5 position-relative">
+    <footer className="">
+      <div className="bg-light py-5">
         <div className="container text-center">
           <h5 className="text-primary mb-2">SUBSCRIBE TO OUR NEWSLETTER</h5>
-          <h2 className="mb-4">Get weekly updates</h2>
+          <h2 className="mb-4 text-black">Get weekly updates</h2>
 
           <div className="row justify-content-center">
             <div className="col-lg-6">
@@ -34,7 +34,7 @@ function Footer() {
             viewBox="0 0 1440 320"
             style={{ fill: "#0071c2", marginBottom: "-1px" }}
           >
-            <path d="M0,224L80,213.3C160,203,320,181,480,181.3C640,181,800,203,960,202.7C1120,203,1280,181,1360,170.7L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+          
           </svg>
         </div>
       </div>

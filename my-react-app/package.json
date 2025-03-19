@@ -4,8 +4,10 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development --port 3008",
+    "prebuild": "chmod -R +x node_modules/.bin",
     "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "next lint"
   },
   "keywords": [],
   "author": "Marah",

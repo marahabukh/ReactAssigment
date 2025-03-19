@@ -215,7 +215,7 @@ import { Calendar, ArrowRight, Bed, Ticket, Utensils, Bus, Car, Film } from "luc
               <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
                 <div className="position-relative">
                   <img
-                    src="ParisImage.png"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/640px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg"
                     className="card-img-top"
                     alt="Paris"
                     style={{ height: "200px", objectFit: "cover" }}
@@ -234,7 +234,7 @@ import { Calendar, ArrowRight, Bed, Ticket, Utensils, Bus, Car, Film } from "luc
               <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
                 <div className="position-relative">
                   <img
-                    src="GreeceImage.png"
+                    src=""
                     className="card-img-top"
                     alt="Greece"
                     style={{ height: "200px", objectFit: "cover" }}
@@ -253,7 +253,7 @@ import { Calendar, ArrowRight, Bed, Ticket, Utensils, Bus, Car, Film } from "luc
               <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
                 <div className="position-relative">
                   <img
-                    src="NorwayImage.png"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPZc6UUFuYHgSy0W2_esgURbmTbKpfaFdyZw&s"
                     className="card-img-top"
                     alt="Norway"
                     style={{ height: "200px", objectFit: "cover" }}
@@ -272,7 +272,7 @@ import { Calendar, ArrowRight, Bed, Ticket, Utensils, Bus, Car, Film } from "luc
               <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
                 <div className="position-relative">
                   <img
-                    src="TuscanyImage.png"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB4Bm1vo5qbGbR48ViIxsGXUBxeUJ090cRgg&s"
                     className="card-img-top"
                     alt="Tokyo"
                     style={{ height: "200px", objectFit: "cover" }}
@@ -307,7 +307,7 @@ import { Calendar, ArrowRight, Bed, Ticket, Utensils, Bus, Car, Film } from "luc
             <div className="col-md-6 col-lg-3">
               <div className="card border-0 shadow-sm h-100">
                 <img
-                  src="Matterhorn Suites Image.png"
+                  src="https://www.intechnic.com/hubfs/Blog/Featured%20Images/Best%20Hotel%20Website%20Designs.jpg"
                   className="card-img-top"
                   alt="Luxury Hotel"
                   style={{ height: "200px", objectFit: "cover" }}
@@ -328,7 +328,7 @@ import { Calendar, ArrowRight, Bed, Ticket, Utensils, Bus, Car, Film } from "luc
             <div className="col-md-6 col-lg-3">
               <div className="card border-0 shadow-sm h-100">
                 <img
-                  src="Discovery Shores Image.png"
+                  src="https://yellowzebrasafaris.com/media/46262/top-beach-resorts-in-tanzania-africa.jpg?width=1048&height=612&format=jpg&v=1da5e0fdc340cd0"
                   className="card-img-top"
                   alt="Beach Resort"
                   style={{ height: "200px", objectFit: "cover" }}
@@ -349,7 +349,7 @@ import { Calendar, ArrowRight, Bed, Ticket, Utensils, Bus, Car, Film } from "luc
             <div className="col-md-6 col-lg-3">
               <div className="card border-0 shadow-sm h-100">
                 <img
-                  src="Arctic Hut Image.png"
+                  src="https://www.arcticcabins.co.uk/wp-content/uploads/2023/03/10m-Arctic-BBQ-Cabin_feature_Compressed.jpg"
                   className="card-img-top"
                   alt="Arctic Hut"
                   style={{ height: "200px", objectFit: "cover" }}
@@ -370,7 +370,7 @@ import { Calendar, ArrowRight, Bed, Ticket, Utensils, Bus, Car, Film } from "luc
             <div className="col-md-6 col-lg-3">
               <div className="card border-0 shadow-sm h-100">
                 <img
-                  src="Lake Louise Image.png"
+                  src="https://icefieldsparkway.com/assets/volumes/images/_1200x630_crop_center-center_82_none/lake_louise_lake__boathouse.jpg?v=1741045457"
                   className="card-img-top"
                   alt="Lake Louise Inn"
                   style={{ height: "200px", objectFit: "cover" }}
@@ -429,7 +429,7 @@ import { Calendar, ArrowRight, Bed, Ticket, Utensils, Bus, Car, Film } from "luc
               <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
                 <div className="position-relative">
                   <img
-                    src="SwitzerlandImage.png"
+                    src="https://th.bing.com/th/id/R.832d649a23cb2bd6bf3a6409d5a5f3da?rik=SGX4%2fTJKfOS%2bJw&pid=ImgRaw&r=0"
                     className="card-img-top"
                     alt="Swiss"
                     style={{ height: "200px", objectFit: "cover" }}
@@ -449,7 +449,7 @@ import { Calendar, ArrowRight, Bed, Ticket, Utensils, Bus, Car, Film } from "luc
               <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
                 <div className="position-relative">
                   <img
-                    src="BoracayImage.png"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Boracay_White_Beach.png/1200px-Boracay_White_Beach.png"
                     className="card-img-top"
                     alt="Boracay"
                     style={{ height: "200px", objectFit: "cover" }}
@@ -469,7 +469,7 @@ import { Calendar, ArrowRight, Bed, Ticket, Utensils, Bus, Car, Film } from "luc
               <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
                 <div className="position-relative">
                   <img
-                    src="PalawanImage.png"
+                    src="https://upload.wikimedia.org/wikipedia/commons/1/13/Kayangan_Lake%2C_Coron_-_Palawan.jpg"
                     className="card-img-top"
                     alt="Palawan"
                     style={{ height: "200px", objectFit: "cover" }}

@@ -234,7 +234,7 @@ import { Calendar, ArrowRight, Bed, Ticket, Utensils, Bus, Car, Film } from "luc
               <div className="card rounded-4 overflow-hidden border-0 shadow-sm">
                 <div className="position-relative">
                   <img
-                    src=""
+                    src="https://cdn.tourradar.com/s3/tour/720x480/156843_62ac430d534a0.jpg"
                     className="card-img-top"
                     alt="Greece"
                     style={{ height: "200px", objectFit: "cover" }}
